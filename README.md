@@ -1,104 +1,265 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite candy</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container logo-nav-container">
-        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/89bed781830117.Y3JvcCwxNTMwLDExOTcsMjIsMTg5.jpg" height="180px" alt="Logo Chocoramo">
-        <nav>
-            <a class="link" href="ABOUT US.html">ABOUT US   |</a>
-            <a class="link" href="PRODUCTS.html">PRODUCTS   |</a>
-            <a class="link" href="CONTACT.html">CONTACT     |</a>
-        </nav>
-    </div>
-    </header>
+header {
+    background-color: rgb(255, 74, 2);
+
+}
+
+a {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+main {
+    background-color: rgb(72, 55, 55);
+    color: white;
+}
+
+footer {
+    background-color: rgb(255, 74, 2);
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    border: 10px solid red;
+    outline: 4px solid white;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: rgba(253, 243, 243, 0.944);
+    color: rgba(0, 125, 208, 0.827);
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px rgb(255, 74, 2);
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: rgb(255, 74, 2);
+    margin: 0;
+}
+
+nav {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pr {
+    margin: 600px;
+    font-size: 50px;
+}
+
+.ramo {
+    color: rgba(0, 125, 208, 0.827);
+    font-size: 10px;
+}
+
+.ramo:hover {
+    color: red;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.About {
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 10px solid red;
+    outline: 4px solid white;
+    width: 470px;
+    padding-left: 30px;
+    margin-top: 150px;
+    margin-left: 60px;
+    line-height: 50px;
+    background-color: rgba(253, 243, 243, 0.944);
+    color: rgba(0, 125, 208, 0.827);
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px rgb(255, 74, 2);
+    transition: transform .4s;
+}
+
+.Normal {
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+    border: 10px solid red;
+    outline: 4px solid white;
+    width: 470px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 60px;
+    transition: transform .5s;
+    background-color: rgba(253, 243, 243, 0.944);
+    color: rgba(0, 125, 208, 0.827);
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px rgb(255, 74, 2);
+}
+
+.Normal:hover{
+    transform: scale(1.1);
+    color: #FFF;
+    background-color: rgb(255, 74, 2);
+    outline: 4px solid red;
+    border: 10px solid rgba(0, 125, 208, 0.827);
+}
+
+.Products {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+    border: 10px solid red;
+    outline: 4px solid white;
+    padding-left: 30px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(253, 243, 243, 0.944);
+    color: rgba(0, 125, 208, 0.827);
+    border-radius: 0px;
+    box-shadow: 7px 7px 15px rgb(255, 74, 2);
+}
+
+.Mini {
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 10px solid red;
+    outline: 4px solid white;
+    width: 470px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 50em;
+    transition: transform .5s;
+    background-color: rgba(253, 243, 243, 0.944);
+    color: rgba(0, 125, 208, 0.827);
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px rgb(255, 74, 2);
+}
+
+.Mini:hover {
+    transform: scale(1.1);
+    color: #FFF;
+    background-color: rgb(255, 74, 2);
+    outline: 4px solid red;
+    border: 10px solid rgba(0, 125, 208, 0.827);
+}
+
+.McFlurry {
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 10px solid red;
+    outline: 4px solid white;
+    width: 470px;
+    transition: transform .5s;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: rgba(253, 243, 243, 0.944);
+    color: rgba(0, 125, 208, 0.827);
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px rgb(255, 74, 2);
+}
+
+.McFlurry:hover {
+    transform: scale(1.1);
+    color: #FFF;
+    background-color: rgb(255, 74, 2);
+    outline: 4px solid red;
+    border: 10px solid rgba(0, 125, 208, 0.827);
+}
+
+.barra {
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 10px solid red;
+    outline: 4px solid white;
+    width: 470px;
+    padding-left: 30px;
+    margin-left: 50em;
+    transition: transform .5s;
+    background-color: rgba(253, 243, 243, 0.944);
+    color: rgba(0, 125, 208, 0.827);
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px rgb(255, 74, 2);
+}
+
+.barra:hover {
+    transform: scale(1.1);
+    color: #FFF;
+    background-color: rgb(255, 74, 2);
+    outline: 4px solid red;
+    border: 10px solid rgba(0, 125, 208, 0.827);
+}
+
+.link { color: #FFF; 
+} 
+
+.link:hover { color: rgb(72, 55, 55); 
+}
 
 
-    <main>
-        <div class="chocoramo">
-        <h1 class="lineUp">Chocoramo</h1>
-        </div>
-        <div class="About">
-            <h3>About this product</h3>
-            <ul>
-                <li>Chocolate covered pound cake</li>
-                <li>Perfect snack for school or after</li>
-                <li>Delicious snack without the mess</li>
-                <li>Original colombian treat</li>
-            </ul>
-        </div>
+.zoom {
+    transition: transform .2s;
+    border-radius: 50%;
+}
+ 
+.zoom:hover {
+    transform: scale(1.1);
+}
 
-        <div class="Products">
-            <span class="pr">Products </span>
-            <div class="Normal">
-                <h4>Normal</h4>
-                <h5>🔥 Calories: 290 kcal </h5>
-                <h5>🥑 Fats: 15 g </h5>
-                <h5>🥔 Carbohydrates: 34 g</h5>
-                <h5>🍗 Proteins: 4 g</h5>
-                <img class="zoom" src="https://d2yoo3qu6vrk5d.cloudfront.net/images/20190415071620/chocorramo.jpeg" height="200" width="350" alt="Chocoramo normal">
-                <h6>Image taken from <a class="ramo" href="https://www.ramo.com.co/familia-chocoramo/">ramo</a></h6>
-            </div>
-            
+.About:hover {
+    transform: scale(1.1);
+}
 
-            <div class="Mini">
-                <h4>Mini</h4>
-                <h5>🔥 Calories: 90 kcal </h5>
-                <h5>🥑 Fats: 5 g </h5>
-                <h5>🥔 Carbohydrates: 11 g</h5>
-                <h5>🍗 Proteins: 1 g</h5>
-                <img class="zoom" src="https://radionacional-v3.s3.amazonaws.com/s3fs-public/node/article/field_image/CHOCO_0.jpg" height="250" width="400" alt="Mini Chocoramo">
-                <h6>Image taken from <a class="ramo" href="https://www.ramo.com.co/familia-chocoramo/">ramo</a></h6>
-            </div>
+.contacts {
+    margin-right: 100px;
+}
 
-            <div class="McFlurry">
-                <h4>McFlurry</h4>
-                <h5>🔥 Calories: 520 kcal </h5>
-                <h5>🥑 Fats: 19 g </h5>
-                <h5>🥔 Carbohydrates: 74 g</h5>
-                <h5>🍗 Proteins: 10 g</h5>
-                <img class="zoom" src="https://www.elpais.com.co/files/article_main/uploads/2022/07/21/62d9f9ee738c3.jpeg" height="200" alt="McFlurry Chocoramo">
-                <h6>Image taken from <a class="ramo" href="https://www.ramo.com.co/familia-chocoramo/">ramo</a></h6>
-            </div>
+.social {
+    transition: transform .5s;
+    margin-right: 100px;
+}
 
-            <div class="barra">
-                <h4>Bar</h4>
-                <h5>🔥 Calories: 170 kcal </h5>
-                <h5>🥑 Fats: 8 g </h5>
-                <h5>🥔 Carbohydrates: 23 g</h5>
-                <h5>🍗 Proteins: 2 g</h5>
-                <img class="zoom" src="https://lh3.googleusercontent.com/RxXoXi9tEAz9tHqNWhzMt_QWUEMoWvRD2QFr99CjOGdH0TzuRMH_YzVKXjTLqXb_K73Z3xtSRf2Igc5mEW9L74DICziBZPBDoCdz" height="150" alt="Barra Chocoramo">
-                <h6>Image taken from <a class="ramo" href="https://www.ramo.com.co/familia-chocoramo/">ramo</a></h6>
-            </div>
-
-        </div>
+.social:hover {
+    transform: scale(1.1);
+}
 
 
-    </main>
-    
-    
-    <footer>
-        <center><img src="https://mir-s3-cdn-cf.behance.net/projects/404/89bed781830117.Y3JvcCwxNTMwLDExOTcsMjIsMTg5.jpg" height="140px" alt="Logo Chocoramo"></center>
-        <div class="contacts">
-            <h6><a class="link" href="ContactUs">Contact Us</a></h6>
-            <h6><span class="Address">Address: </span> Carrera 27 a No. 68 – 50 Barrio Alcázares</h6>
-        </div>
-        <div class="social">
-            <a href="https://www.secure.instagram.com/chocoramoficial/?hl=es-la"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" height="50px" ></a>
-            <a href="https://twitter.com/RamoColombia"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/1245px-Twitter-logo.svg.png" height="50px" ></a>
-        </div>
-    </footer>
-</body>
 
 
-</html>
+.lineUp {
+    animation: 2s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
